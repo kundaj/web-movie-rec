@@ -1,0 +1,333 @@
+html {
+	background: #f0f0f0;
+	margin:0 0 0 -1px;
+	padding:0;	
+	overflow-Y: scroll;
+}
+
+
+body {
+	padding:0;
+	margin :0;
+	display:table; 
+	width:100%;	
+}
+
+
+body {
+	color:#606060;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+}
+
+p {
+	letter-spacing: normal;
+	line-height: 1.7em;
+}
+
+h1 {
+	color:#505050;
+	font-size:22px;
+	margin:25px 0 10px 0;
+	clear:both;
+}
+
+
+h2 {
+	color:#505050;
+	font-size:20px;
+	margin:20px 0 10px 0;
+	clear:both;
+}
+
+
+h3 {
+	color:#505050;
+	font-size:18px;
+	margin:20px 0 5px 0;
+	clear:both;
+}
+
+
+
+a:link, a:visited {
+	color:#1860a8;
+	text-decoration:none;
+}
+
+
+a:hover {
+	color:#fa720a;
+	text-decoration:underline;
+}	
+					
+#wrapper {
+	background: transparent url( images/css/page-vbg.jpg ) repeat-y scroll 50% 0px;
+	margin:0 auto ;
+	width:100%;
+}
+
+					body {
+	background-color:#f0f0f0;
+}
+
+#wrapper {
+	border-top: 1px solid #ffffff;
+}
+	
+
+#bg {
+	margin:0 auto;
+	padding:0;
+	background:transparent ;
+	background-image:url(images/css/hat.jpg);
+ 	background-repeat:no-repeat;	
+	background-position: center top ;
+}
+
+
+
+					#header {
+	margin: 0 auto;
+	height: 200px;
+	width: 880px;
+	position:relative;
+}
+	
+
+#page {
+	background: transparent url( images/css/page-bg.jpg ) no-repeat center top;
+}
+
+
+					
+
+
+#container {
+	margin:0 auto;
+	width:880px;
+}
+
+
+					
+
+#nav1 {
+	height:35px;
+	margin:0 auto ;
+	text-align:center;
+}
+
+#nav1 ul {
+	display:table;
+	margin:0 auto;
+	padding:0;
+	list-style-type:none;
+	position:relative;
+	height:35px;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family:Arial,sans-serif;
+}
+
+
+#nav1 ul li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	background:transparent url('images/css/hmenu.jpg') repeat-x top left;
+
+}
+
+
+#nav1 ul li a {
+	display:block;
+	float:left;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:0px 25px ;
+	line-height:35px;
+	font-weight:bold;
+}
+
+
+#nav1 ul li a:hover, #nav1 li#current a {
+	color:#d8d8f0;
+	background:transparent url('images/css/hmenu-sel.jpg') repeat-x top left;
+}
+
+
+	
+
+#nav1 {
+	padding-top: 1px;
+}
+
+
+#content {
+	width:878px;
+	margin:0 auto ;
+	text-align:left;
+	min-height:600px;
+}
+
+
+#content p {
+	text-align:justify;
+}
+	
+
+
+
+#footerWrapper {
+	margin:0 auto;
+	height:80px;
+	padding:0;
+	background:transparent url( images/css/footerWrapper-bg.jpg ) no-repeat scroll center top;
+}
+
+
+#footer {
+	margin:0 auto;
+	padding:0;
+	width:880px;
+	height:40px;
+}
+
+
+#footer {
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#footer a:link, #footer a:visited {
+	color:#FFFFFF;
+}
+
+
+#footer a:hover{
+	color:#ffb508;
+	text-decoration:none;
+}
+
+	
+	
+					
+#right {
+	width:200px;
+	padding:10px 20px 20px 20px;
+	float:left;
+}
+
+
+#center {
+	width:598px;
+	padding:10px 20px 20px 20px;
+	float:left;
+}
+
+ 
+#content p {
+	margin-top:10px;
+	text-align:justify;
+}
+
+
+										
+#sidebar ul.vmenu {
+	list-style: none;
+	text-align: left;
+	margin: 7px 0px 8px 0px; 
+	padding: 0;
+	text-decoration: none;	
+	border-top: 1px solid #eeeeee;
+}
+
+
+#sidebar ul.vmenu li {
+	list-style: none;
+	padding: 4px 0 4px 0px;
+	margin: 0 2px;	
+	border-bottom: 1px solid #eeeeee;
+}
+
+
+
+#sidebar ul.vmenu li a {
+	text-decoration: none;
+	color:#1860a8;
+}
+
+
+#sidebar ul.vmenu li a:hover {
+	color:#d8d8f0;
+}
+
+
+#sidebar ul.vmenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.vmenu ul li { border: none; }
+
+
+			
+
+
+a img {
+	border:none;
+} 
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+#hide {
+    display:none;
+}
+
+.rating input {
+    position:absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    opacity:0;
+    cursor:pointer;
+    width:17px;
+}
+
+.rating span {
+    width:24px;
+    height:16px;
+    line-height:16px;
+    padding:1px 22px 1px 0; /* 1px FireFox fix */
+    background:url(images/css/stars.png) no-repeat -22px 0;
+}
+
+/* Change span immediately following the checked radio */
+
+.rating input:checked + span {
+    background-position:-22px 0;
+}
+
+/* Reset all remaining stars back to default background.
+   This supersedes the above due to its ordering. */
+
+.rating input:checked + span ~ span {
+    background-position:0 0;
+}
+
+.jshover {
+    background-position:-22px 0 !important;
+}
+
+.jshoverNext {
+    background-position:0 0 !important;
+}
+
