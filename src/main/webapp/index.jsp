@@ -66,10 +66,10 @@
 	                	<%= session.getAttribute("SignupSuccess")%>
 	                	<% session.setAttribute("SignupSuccess",null); //Kill the session%>
                 	<%	} %>
-				    <form action="loginServlet" method="post">
-				        <fieldset style="width: 300px">
-				            <legend> Login </legend>
-				            <table>
+				ï¿½ï¿½ï¿½ <form action="loginServlet" method="post">
+				ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ <fieldset style="width: 300px">
+				ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ <legend> Login </legend>
+				ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ <table>
 								<tr>
 									<td>User Name</td>
 									<td><input type="text" name="username" required="required" /></td>
@@ -83,8 +83,8 @@
 									<td><button onclick="javascript:window.location = 'signup.jsp'">Sign Up</button></td>
 								</tr>
 							</table>
-				        </fieldset>
-				    </form>
+				ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ </fieldset>
+				ï¿½ï¿½ï¿½ </form>
                 </div> 
               </div>  
               <div id="right" style="width:230px;padding:10px 20px 20px 0px;"> 
@@ -106,7 +106,7 @@
         </div>  
         <div id="footerWrapper"> 
           <div id="footer">
-            <p style="padding-top:10px"><a href="index.jsp">Master Project: "A Smart Real-time Movie Recommender" done by Jeff Nkandu &copy;2014</a></p>
+            <p style="padding-top:10px"><a href="index.jsp">Master Project: "A Smart Real-time Movie Recommender" done by Jeff Nkandu &copy;2014-2016</a></p>
             <p style="padding-top:10px"> </p> 
           </div> 
         </div> 

@@ -12,12 +12,12 @@ This web app was build on top of a console application and used the following we
 HTML/CSS/JQuery/JSP on the client-side and Java Servlets on the server side. Servlets invoke
 classes from the console application. User information, as well as the collected feedback, is stored in a MySQL database.
 
-The web application collects two(2) kinds of user feedback. These are:
+The web application collects two kinds of user feedback. These are:
 	1. ratings of recommended movies, and
 	2. rating of the overall quality of the recommendations provided by the system
-As such the system has two (2) use-cases:
-	1. Use case 1: Movie rating
-	2. Use case 2: System quality rating
+As such the system has two use-cases:
+	1. Movie rating
+	2. System quality rating
 	
 The user is asked to rate at least 15 movies. The list of movies presented to the user is updated
 using the adaptive predictor every time they rate a movie. This is so because
