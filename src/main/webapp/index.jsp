@@ -66,10 +66,10 @@
 	                	<%= session.getAttribute("SignupSuccess")%>
 	                	<% session.setAttribute("SignupSuccess",null); //Kill the session%>
                 	<%	} %>
-				��� <form action="loginServlet" method="post">
-				��� ��� <fieldset style="width: 300px">
-				��� ��� ��� <legend> Login </legend>
-				��� ��� ��� <table>
+				<form action="loginServlet" method="post">
+				 <fieldset style="width: 300px">
+				<legend> Login </legend>
+				<table>
 								<tr>
 									<td>User Name</td>
 									<td><input type="text" name="username" required="required" /></td>
@@ -83,8 +83,8 @@
 									<td><button onclick="javascript:window.location = 'signup.jsp'">Sign Up</button></td>
 								</tr>
 							</table>
-				��� ��� </fieldset>
-				��� </form>
+				</fieldset>
+			 </form>
                 </div> 
               </div>  
               <div id="right" style="width:230px;padding:10px 20px 20px 0px;"> 
