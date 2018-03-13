@@ -28,7 +28,7 @@ The web-based movie recommender is hosted at the following URL: [http://thesisap
 All the source code has been published to GitHub [https://github.com/KundaJ/web-movie-rec.git].
 
 I will continue to push new commits as, and when, I have time as a hobby project (recommender systems are cool!) and 
-because I feel I can involve this project a lot, e.g. 
-	1. evolve the algorithm to incorporate latent features (age, sex, words in movie synopsis etc.)
-	2. improve computation by distributing math operations with Apache Hadoop/Spark
-	3. improve scalability
+because I feel I can evolve this project a lot, e.g. 
+	<ul><li>1. improve the algorithm to incorporate latent features (age, sex, words in movie synopsis etc.)</li>
+	<li>2. improve computation by distributing math operations with Apache Hadoop/Spark</li>
+	<li>3. improve scalability</li></ul>
